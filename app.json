@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/catalogue/catalogue",
+    "pages/buycar/buycar"
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"#00b26a",
+    "selectedColor":"#c05c6e",
+    "backgroundColor":"#fff5f8",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页",
+      },
+      {
+        "pagePath": "pages/catalogue/catalogue",
+        "text": "分类",
+      },
+      {
+         "pagePath": "pages/buycar/buycar",
+          "text": "购物车",
+      }
+    ]
+  }
+}
